@@ -1,0 +1,68 @@
+.logo {
+    height: 200px;
+    width: 150px;
+    border-radius: .5rem;
+  }
+  
+  .movie-card {
+    border-width: 2px;
+    border-radius: .5rem;
+    position: relative;
+
+   
+        .card-body {
+          
+          background-color: #E8EBEE;
+
+          .movie-title {
+            margin-bottom: 2px;
+            font-size: 24px;
+            font-weight: bold;
+          }
+
+           
+          hr {
+            border-color: darkgray;
+            border-width: 1px;
+            margin-top: 1px;
+            margin-bottom: 1px;
+          }
+
+          .rating-card {
+            border-width: 2px;
+            border-radius: .5rem;
+            position: relative;
+          }
+    
+        
+          .rating-div {
+            border-width: 1px;
+            border-radius: .3rem;
+            border-style: solid;
+            border-color: #8D989D;
+            margin-top: 5px;
+            color: #8D989D;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 14px;
+            width: 3.5rem;
+            text-align: center;
+            
+          }
+  
+            .view-btn {
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              background-color: #F9B44A;
+              color: #FFFFFF;
+            }
+        }
+  }
+
+  
+  
+ 
+
+ 
+
+

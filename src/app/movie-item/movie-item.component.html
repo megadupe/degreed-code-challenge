@@ -1,0 +1,43 @@
+<div class="container">
+  <!-- movie card -->
+  <div class="card bg-light border-dark mb-3 movie-card">
+    <div class="card-body">
+
+      <!-- movie poster -->
+      <div class="row">
+        <div class="col-lg-2 poster">
+          <img [src]="movie.Poster" alt="Batman Logo" class="logo">
+        </div>
+        <div class="col-lg-10">
+
+          <!-- movie title -->
+          <h5 class="card-title movie-title">{{ movie.Title }}</h5>
+          <hr />
+
+          <!-- movie details -->
+          <div class="row">
+            <div class="col-lg-2">
+              <div class="rating-div">
+                {{ movie.Rated }}
+              </div>
+
+            </div>
+            <div class="col-lg-2">
+              {{ movie.Runtime }}
+            </div>
+            <div class="col-lg" align="right">
+              {{ movie.Year }}
+            </div>
+            <div class="w-100"></div>
+
+            <!-- movie summary -->
+            <div class="col-12">
+              <p class="card-text"> {{ movie.Plot }}</p>
+            </div>
+            <p style="padding-right: 40px"> <a href="https://www.imdb.com/title/{{movie.imdbID}}/" target="_blank" class="btn view-btn">View on IMDB</a></p>
+
+          </div>          
+        </div>
+      </div>
+    </div>
+  </div>
